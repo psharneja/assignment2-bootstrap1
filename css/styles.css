@@ -98,6 +98,14 @@ h1.nokia {
     height: 400px;
     
 }
+.panel-footer>h4 {
+  color: #124191;  
+}
+.panel-footer>p {
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
 
 
 /* Portrait & landscape phone */
