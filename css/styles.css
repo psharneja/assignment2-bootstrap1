@@ -49,6 +49,28 @@ h1.nokia {
     margin-right: 10px;
     margin-left: -5px;
 }
+#carousel-head {
+    margin-top: 60px;
+}
+#carousel-item {
+    height: 450px;
+}
+
+#slide1 {
+    background: url('../images/slide1.jpg') top center no-repeat;
+}
+#slide2 {
+    background: url('../images/slide2.jpg') top center no-repeat;
+}
+#slide3 {
+    background: url('../images/slide3.jpg') top center no-repeat;
+}
+#slide4 {
+    background: url('../images/slide4.jpg') top center no-repeat;
+}
+#slide5 {
+    background: url('../images/slide5.jpg') top center no-repeat;
+}
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
