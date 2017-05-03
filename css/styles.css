@@ -1,0 +1,66 @@
+/** 
+
+illuminati nokia 1.0
+
+*/
+
+
+/*loaded nokia font*/
+@font-face {
+    font-family: nokiafonts;
+    src: url('../fonts/NokiaKokia.ttf');
+    
+}
+
+
+/*global changes */
+body {
+    -webkit-font-smoothing: antialiased;
+    
+    text-rendering: optimizeLegibility;
+}
+
+
+
+/* nokia logo*/
+.nokia {
+    font-family: nokiafonts, sans-serif;
+    font-weight: bolder;
+    color:#124191;
+    padding: 0;
+    margin: 0;
+    
+    --text-shadow: 2px 2px 2px white;
+    
+    
+    
+}
+.navbar {
+    box-shadow: 7px 1px 5px #124191;
+    background: linear-gradient(#F1F1F1,#FFF,#FFF,#FFF,#F1F1F1);
+}
+
+
+h1.nokia {
+    font-size: 24px;
+}
+
+#nav-icons {
+    margin-right: 10px;
+    margin-left: -5px;
+}
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
