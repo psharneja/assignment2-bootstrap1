@@ -91,6 +91,13 @@ h1.nokia {
     margin-top: 200px;
     color: #124191;
 }
+.panel {
+    text-align: center;
+}
+.panel img {
+    height: 400px;
+    
+}
 
 
 /* Portrait & landscape phone */
