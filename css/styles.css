@@ -50,10 +50,12 @@ h1.nokia {
     margin-left: -5px;
 }
 #carousel-head {
-    margin-top: 60px;
+    margin-top: 55px;
 }
-#carousel-item {
-    height: 450px;
+#carousel-head .item {
+    height: 500px;
+   
+    
 }
 
 #slide1 {
@@ -71,6 +73,25 @@ h1.nokia {
 #slide5 {
     background: url('../images/slide5.jpg') top center no-repeat;
 }
+.carousel-indicators li{
+    border-radius: 0;
+    width: 15px;
+    height: 5px;
+}
+.carousel-caption {
+    font-family:  "nokia-pure-headline-ultralight",Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+.carousel-caption h4 {
+    font-size: 26px;
+}
+
+.carousel a>span {
+    margin-top: 200px;
+    color: #124191;
+}
+
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
