@@ -111,8 +111,31 @@ h1.nokia {
 
 .contact-us {
     background-color: #ccc;
+    font-family: 'Oxygen', sans-serif;
     padding: 10px;
+
 }
+.fa {
+    color: gray;
+}
+.fa-facebook-square:hover{
+    color: #3B5998;
+    transition: all 0.2s ease-in-out
+    
+}
+.fa-twitter-square:hover {
+    color: #61BCF6;
+    transition: all 0.2s ease-in-out
+}
+.fa-linkedin-square:hover {
+    color: #0073B1;
+    transition: all 0.2s ease-in-out
+}
+.fa-youtube-square:hover {
+    color: #E62117;
+    transition: all 0.2s ease-in-out
+}
+
 
 
 /* Portrait & landscape phone */
