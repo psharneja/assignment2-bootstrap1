@@ -105,7 +105,14 @@ h1.nokia {
     font-family: 'Gloria Hallelujah', cursive;
 
 }
+#search-box {
+    margin: 2px 2px 2px 1px;
+}
 
+.contact-us {
+    background-color: #ccc;
+    padding: 10px;
+}
 
 
 /* Portrait & landscape phone */
