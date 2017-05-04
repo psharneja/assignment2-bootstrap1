@@ -53,7 +53,7 @@ h1.nokia {
     margin-top: 55px;
 }
 #carousel-head .item {
-    height: 500px;
+    height: 400px;
    
     
 }
@@ -82,6 +82,8 @@ h1.nokia {
     font-family:  "nokia-pure-headline-ultralight",Arial,Helvetica,sans-serif;
     font-size: 22px;
     font-weight: 300;
+    text-shadow: 1px 1px 1px #124191; 
+
 }
 .carousel-caption h4 {
     font-size: 26px;
@@ -148,19 +150,115 @@ ul.unstyled {
     padding: 0;
 }
 
+.navbar-toggle {
+    background-color: #124191;
+}
+
+.icon-bar{
+    background-color: #f1f1f1;
+}
 
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+	#carousel-head .item {
+    height: 200px;
+   
+    
+}
+    .carousel-caption {
+    font-family:  "nokia-pure-headline-ultralight",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+                text-shadow: 1px 1px 1px #124191; 
+
+}
+.carousel-caption h4 {
+    font-size: 14px;
+}
+     #slide1 {
+    background: url('../images/4slide1.jpg') top center no-repeat;
+}
+#slide2 {
+    background: url('../images/4slide2.jpg') top center no-repeat;
+}
+#slide3 {
+    background: url('../images/4slide3.jpg') top center no-repeat;
+}
+#slide4 {
+    background: url('../images/4slide4.jpg') top center no-repeat;
+}
+#slide5 {
+    background: url('../images/4slide5.jpg') top center no-repeat;
+}
 	
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+    #carousel-head .item {
+    height: 300px;
+   
+    
+}
+.carousel-caption {
+    font-family:  "nokia-pure-headline-ultralight",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px #124191;    
+}
+.carousel-caption h4 {
+    font-size: 18px;
+}
+    #slide1 {
+    background: url('../images/7slide1.jpg') top center no-repeat;
+}
+#slide2 {
+    background: url('../images/7slide2.jpg') top center no-repeat;
+}
+#slide3 {
+    background: url('../images/7slide3.jpg') top center no-repeat;
+}
+#slide4 {
+    background: url('../images/7slide4.jpg') top center no-repeat;
+}
+#slide5 {
+    background: url('../images/7slide5.jpg') top center no-repeat;
+}
 	
 }
 
 /* Large desktop */
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
+   
+    #carousel-head .item {
+    height: 500px;
+   
+    
+}
+    .carousel-caption {
+    font-family:  "nokia-pure-headline-ultralight",Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+        text-shadow: 1px 1px 1px #124191; 
+}
+.carousel-caption h4 {
+    font-size: 26px;
+}
+    #slide1 {
+    background: url('../images/slide1.jpg') top center no-repeat;
+}
+#slide2 {
+    background: url('../images/slide2.jpg') top center no-repeat;
+}
+#slide3 {
+    background: url('../images/slide3.jpg') top center no-repeat;
+}
+#slide4 {
+    background: url('../images/slide4.jpg') top center no-repeat;
+}
+#slide5 {
+    background: url('../images/slide5.jpg') top center no-repeat;
+}
 	
 }
