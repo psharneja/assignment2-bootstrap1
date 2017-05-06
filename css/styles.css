@@ -291,3 +291,29 @@ ul.unstyled {
 }
 	
 }
+
+
+
+#about-main {
+    padding: 80px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#about-main h1{
+    font-size: 42px;
+    color: #124191;
+}
+#our-details h1,h2 {
+    line-height:  50px;
+    
+    color: #124191;
+    font-family:"nokia-pure-headline-ultralight",Arial,Helvetica,sans-serif;
+}
+
+#our-details h5 {
+    font-size: 18px;
+    text-align: justify;
+        font-family:"nokia-pure-headline-ultralight",Arial,Helvetica,sans-serif;
+    line-height: 30px;
+
+}
